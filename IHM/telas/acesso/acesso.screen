@@ -80,7 +80,7 @@
   <widgets xsi:type="model:Label" id="26" x="704" y="529" text="Aproveite e se cadastre agora!!!!" measuredWidth="464" measuredHeight="53">
     <font size="32px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="27" x="704" y="656" text="Clique aqui" measuredWidth="207" measuredHeight="62" foreground="#6fa8dc">
+  <widgets xsi:type="model:Label" id="27" x="704" y="656" text="Clique aqui" measuredWidth="207" measuredHeight="62" foreground="#6fa8dc" link="acesso_cadastro.screen">
     <font size="40px"/>
   </widgets>
   <widgets xsi:type="model:VLine" id="28" x="620" y="448" height="440" measuredWidth="6" measuredHeight="440"/>

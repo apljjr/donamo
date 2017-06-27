@@ -107,7 +107,7 @@
   <widgets xsi:type="model:Label" id="39" x="831" y="784" text="TOTAL:" measuredWidth="64" measuredHeight="36">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="40" x="960" y="914" measuredWidth="235" measuredHeight="55">
+  <widgets xsi:type="model:Master" id="40" x="960" y="914" measuredWidth="235" measuredHeight="55" link="sacolaComprasDados.screen">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Buttons.screen#Button%20Success"/>
     <overrides>
       <widgets ref="37" width="235" height="55" text="CONTINUAR">

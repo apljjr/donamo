@@ -47,7 +47,7 @@
   <widgets xsi:type="model:SVGImage" id="18" x="232" y="243" width="32" height="36" measuredWidth="32" measuredHeight="36" src="../../assets/ic_search.svg"/>
   <widgets xsi:type="model:HLine" id="35" x="20" y="1519" width="1233" measuredWidth="1233" measuredHeight="6"/>
   <widgets xsi:type="model:SVGImage" id="36" x="625" y="1472" measuredWidth="48" measuredHeight="48" src="../../assets/ic_autorenew.svg"/>
-  <widgets xsi:type="model:Image" id="37" x="79" y="432" measuredWidth="178" measuredHeight="473" src="../../assets/roupa_saiaSarja.png"/>
+  <widgets xsi:type="model:Image" id="37" x="79" y="432" measuredWidth="178" measuredHeight="473" link="../produto/produto.screen" src="../../assets/roupa_saiaSarja.png"/>
   <widgets xsi:type="model:Image" id="38" x="336" y="430" measuredWidth="896" measuredHeight="478" src="../../assets/roupa_saiaCombo.png"/>
   <widgets xsi:type="model:Image" id="39" x="19" y="968" width="1235" measuredWidth="1235" measuredHeight="464" src="../../assets/roupa_saiaCombo4.png"/>
   <widgets xsi:type="model:Master" id="40" x="32" y="320" measuredWidth="1232" measuredHeight="44">

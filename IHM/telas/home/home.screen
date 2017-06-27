@@ -34,7 +34,7 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:HLine" id="6" x="32" y="376" width="1233" measuredWidth="1233" measuredHeight="6"/>
-  <widgets xsi:type="model:SVGImage" id="7" x="1184" y="239" measuredWidth="48" measuredHeight="48" src="../../assets/ic_account_box.svg"/>
+  <widgets xsi:type="model:SVGImage" id="7" x="1184" y="239" measuredWidth="48" measuredHeight="48" link="../acesso/acesso.screen" src="../../assets/ic_account_box.svg"/>
   <widgets xsi:type="model:SVGImage" id="8" x="1064" y="239" measuredWidth="48" measuredHeight="48" src="../../assets/ic_local_mall.svg"/>
   <widgets xsi:type="model:SVGImage" id="9" x="944" y="241" measuredWidth="48" measuredHeight="48" link="../atendimento_consumidor/atendimentoConsumidor.screen" src="../../assets/ic_contact_phone.svg"/>
   <widgets xsi:type="model:Master" id="10" x="911" y="199" measuredWidth="107" measuredHeight="29">

@@ -72,10 +72,10 @@
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:Image" id="25" x="872" y="560" measuredWidth="245" measuredHeight="197" src="../../assets/roupas_caracteristicas.png"/>
-  <widgets xsi:type="model:Master" id="27" x="881" y="785" measuredWidth="227" measuredHeight="64">
+  <widgets xsi:type="model:Master" id="27" x="881" y="785" height="48" measuredWidth="227" measuredHeight="48">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Buttons.screen#Button%20Success"/>
     <overrides>
-      <widgets ref="37" width="227" text="COMPRAR">
+      <widgets ref="37" width="227" height="48" text="COMPRAR">
         <font size="40px"/>
       </widgets>
     </overrides>
