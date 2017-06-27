@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="544" measuredHeight="44">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Navigation.screen#Pills%20Justified"/>
+    <overrides>
+      <widgets ref="13" text="Todas Dona Mô, Princesas, Senhoritas, Senhoras  ">
+        <attributes key="background" value="#741b47"/>
+        <attributes key="selection" value="-1"/>
+        <items ref="@items.0" text="Princesas"/>
+        <items ref="@items.1" text="Senhoritas"/>
+        <items ref="@items.2" text="Senhoras  "/>
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" text="Todas Dona Mô"/>
+        </itemChanges>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="575" y="206" text="Escolha sua moda" measuredWidth="130" measuredHeight="29">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="3" x="484" y="16" width="312" height="184" measuredWidth="312" measuredHeight="184" link="../home/home.screen" src="../../assets/logo_nova.png"/>
+  <widgets xsi:type="model:HLine" id="4" x="32" y="301" width="1233" measuredWidth="1233" measuredHeight="6"/>
+  <widgets xsi:type="model:Master" id="5" x="32" y="320" measuredWidth="1232" measuredHeight="44">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Navigation.screen#Pills%20Justified"/>
+    <overrides>
+      <widgets ref="13" width="1232" text="Promoções, Roupas {desc}, Sapatos {desc}, Acessórios {desc}">
+        <attributes key="background" value="#741b47"/>
+        <attributes key="selection" value="-1"/>
+        <items ref="@items.0" text="Roupas {desc}"/>
+        <items ref="@items.1" text="Sapatos {desc}"/>
+        <items ref="@items.2" text="Acessórios {desc}"/>
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" text="Promoções"/>
+        </itemChanges>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="6" x="32" y="376" width="1233" measuredWidth="1233" measuredHeight="6"/>
+  <widgets xsi:type="model:SVGImage" id="7" x="1184" y="239" measuredWidth="48" measuredHeight="48" src="../../assets/ic_account_box.svg"/>
+  <widgets xsi:type="model:SVGImage" id="8" x="1064" y="239" measuredWidth="48" measuredHeight="48" src="../../assets/ic_local_mall.svg"/>
+  <widgets xsi:type="model:SVGImage" id="9" x="944" y="241" measuredWidth="48" measuredHeight="48" src="../../assets/ic_contact_phone.svg"/>
+  <widgets xsi:type="model:Master" id="10" x="911" y="199" measuredWidth="107" measuredHeight="29">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Content.screen#Tooltip"/>
+    <overrides>
+      <widgets ref="111" text="Tire suas dúvidas"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="11" x="1052" y="199" measuredWidth="72" measuredHeight="29">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Content.screen#Tooltip"/>
+    <overrides>
+      <widgets ref="111" text="Sua sacola"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="1154" y="199" measuredWidth="107" measuredHeight="29">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Content.screen#Tooltip"/>
+    <overrides>
+      <widgets ref="111" text="Acesse sua conta"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="13" x="32" y="242" width="241" text="~Buscar moda~" measuredWidth="241" measuredHeight="40" layoutParams="anchor-left|anchor-middle" skin="../../assets/_text-input.svg">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:SVGImage" id="14" x="232" y="243" width="32" height="36" measuredWidth="32" measuredHeight="36" src="../../assets/ic_search.svg"/>
+  <widgets xsi:type="model:HLine" id="16" x="32" y="1112" width="1233" measuredWidth="1233" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="20" x="33" y="1168" width="1233" measuredWidth="1233" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="21" x="942" y="136" text="Olá Adeilson, vamos as compras!" measuredWidth="292" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:SVGImage" id="60" x="96" y="560" width="336" height="328" measuredWidth="336" measuredHeight="328" foreground="#741b47" src="../../assets/ic_local_mall.svg"/>
+  <widgets xsi:type="model:Label" id="61" x="680" y="577" text="Compra efetuada com sucesso!!" measuredWidth="347" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="62" x="518" y="680" text="Obrigado por comprar na DONA MÔ!" measuredWidth="672" measuredHeight="62">
+    <font size="40px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="63" x="583" y="800" text="Comprovante de compra enviado para seu e-mail." measuredWidth="541" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="64" x="745" y="848" text="PEDIDO: 654987321" measuredWidth="218" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
