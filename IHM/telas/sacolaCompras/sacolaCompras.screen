@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
-  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="544" measuredHeight="44">
+  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="548" measuredHeight="44">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Navigation.screen#Pills%20Justified"/>
     <overrides>
       <widgets ref="13" text="Todas Dona Mô, Princesas, Senhoritas, Senhoras  ">
@@ -37,7 +37,7 @@
   </widgets>
   <widgets xsi:type="model:HLine" id="6" x="32" y="376" width="1233" measuredWidth="1233" measuredHeight="6"/>
   <widgets xsi:type="model:SVGImage" id="7" x="1184" y="239" measuredWidth="48" measuredHeight="48" src="../../assets/ic_account_box.svg"/>
-  <widgets xsi:type="model:SVGImage" id="8" x="1064" y="239" measuredWidth="48" measuredHeight="48" src="../../assets/ic_local_mall.svg"/>
+  <widgets xsi:type="model:SVGImage" id="8" x="1064" y="239" measuredWidth="48" measuredHeight="48" foreground="#444" alpha="96" src="../../assets/ic_local_mall.svg"/>
   <widgets xsi:type="model:SVGImage" id="9" x="944" y="241" measuredWidth="48" measuredHeight="48" src="../../assets/ic_contact_phone.svg"/>
   <widgets xsi:type="model:Master" id="10" x="911" y="199" measuredWidth="107" measuredHeight="29">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Content.screen#Tooltip"/>
@@ -83,10 +83,10 @@
       <widgets ref="24" text="02"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Label" id="29" x="424" y="470" text="SAIA DE SARJA BOTÕES COR PRETA" measuredWidth="317" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="29" x="424" y="470" text="SAIA DE SARJA BOTÕES COR PRETA" measuredWidth="320" measuredHeight="36">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="30" x="424" y="618" text="SAIA DE SARJA BOTÕES COR MARROM" measuredWidth="350" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="30" x="424" y="618" text="SAIA DE SARJA BOTÕES COR MARROM" measuredWidth="352" measuredHeight="36">
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="31" x="816" y="470" text="R$ 159,90" measuredWidth="93" measuredHeight="36">
@@ -101,10 +101,10 @@
   <widgets xsi:type="model:Label" id="36" x="1092" y="618" text="R$ 319,80" measuredWidth="93" measuredHeight="36">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="38" x="1092" y="784" text="R$ 479,70" measuredWidth="93" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="38" x="1092" y="784" text="R$ 489,60" measuredWidth="93" measuredHeight="36">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="39" x="831" y="784" text="TOTAL:" measuredWidth="64" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="39" x="831" y="784" text="TOTAL:" measuredWidth="67" measuredHeight="36">
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:Master" id="40" x="960" y="914" measuredWidth="235" measuredHeight="55" link="sacolaComprasDados.screen">
@@ -114,6 +114,24 @@
         <font size="24px"/>
       </widgets>
     </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="41" x="624" y="694" measuredWidth="145" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="1" width="145" text="142.204-290"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="42" x="424" y="696" text="TAXA DE ENTREGA:" measuredWidth="176" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="43" x="816" y="696" text="R$ 9,90" measuredWidth="71" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="625" y="664" width="33" text="CEP" measuredWidth="33" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="46" x="1072" y="689" width="110" height="56" text="CALCULAR" measuredWidth="110" measuredHeight="56" background="#a64d79" icon="refresh (small)">
+    <font size="15px" bold="true"/>
   </widgets>
   <hRuler/>
   <vRuler/>

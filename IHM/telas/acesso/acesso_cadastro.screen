@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
-  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="544" measuredHeight="44">
+  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="548" measuredHeight="44">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Navigation.screen#Pills%20Justified"/>
     <overrides>
       <widgets ref="13" text="Todas Dona Mô, Princesas, Senhoritas, Senhoras  ">
@@ -63,52 +63,52 @@
   <widgets xsi:type="model:SVGImage" id="14" x="232" y="243" width="32" height="36" measuredWidth="32" measuredHeight="36" src="../../assets/ic_search.svg"/>
   <widgets xsi:type="model:HLine" id="19" x="32" y="928" width="1233" measuredWidth="1233" measuredHeight="6"/>
   <widgets xsi:type="model:HLine" id="23" x="33" y="984" width="1233" measuredWidth="1233" measuredHeight="6"/>
-  <widgets xsi:type="model:Master" id="31" x="407" y="444" measuredWidth="505" measuredHeight="40">
+  <widgets xsi:type="model:Master" id="31" x="405" y="414" measuredWidth="505" measuredHeight="40">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Text%20Input"/>
     <overrides>
       <widgets ref="1" width="505" text="~Escreva seu nome~"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Label" id="32" x="411" y="422" text="Nome" measuredWidth="39" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="32" x="411" y="392" text="Nome" measuredWidth="39" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Master" id="33" x="407" y="515" measuredWidth="505" measuredHeight="40">
+  <widgets xsi:type="model:Master" id="33" x="407" y="478" measuredWidth="505" measuredHeight="40">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Text%20Input"/>
     <overrides>
       <widgets ref="1" width="505" text="~Escreva seu sobrenome~"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Label" id="34" x="411" y="493" text="Sobrenome" measuredWidth="67" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="34" x="410" y="456" text="Sobrenome" measuredWidth="67" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Master" id="35" x="407" y="587" measuredWidth="505" measuredHeight="40">
+  <widgets xsi:type="model:Master" id="35" x="405" y="550" measuredWidth="505" measuredHeight="40">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Text%20Input"/>
     <overrides>
       <widgets ref="1" width="505" text="~Escreva seu e-mail~"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Label" id="36" x="411" y="565" text="E-mail" measuredWidth="40" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="36" x="411" y="517" text="E-mail" measuredWidth="40" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Master" id="37" x="407" y="661" measuredWidth="505" measuredHeight="40">
+  <widgets xsi:type="model:Master" id="37" x="405" y="611" measuredWidth="505" measuredHeight="40">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Text%20Input"/>
     <overrides>
       <widgets ref="1" width="505" text="~Escreva seu CPF~"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Label" id="38" x="411" y="638" text="CPF" measuredWidth="27" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="38" x="411" y="589" text="CPF" measuredWidth="27" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Master" id="42" x="406" y="736" measuredWidth="504" measuredHeight="40">
+  <widgets xsi:type="model:Master" id="42" x="600" y="750" width="317" measuredWidth="317" measuredHeight="40">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Select"/>
     <overrides>
-      <widgets ref="24" width="504"/>
+      <widgets ref="24" width="317"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Label" id="43" x="410" y="714" text="Qual moda tem preferencia?" measuredWidth="156" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="43" x="600" y="728" text="Qual moda tem preferencia?" measuredWidth="156" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Master" id="44" x="581" y="808" measuredWidth="172" measuredHeight="56">
+  <widgets xsi:type="model:Master" id="44" x="556" y="863" measuredWidth="172" measuredHeight="56">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Buttons.screen#Button"/>
     <overrides>
       <widgets ref="21" width="172" height="56" text="Cadastrar">
@@ -116,7 +116,40 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Panel" id="47" x="802" y="451" height="26" measuredWidth="100" measuredHeight="26" link="acesso_cadastroPreenchida.screen"/>
+  <widgets xsi:type="model:Panel" id="47" x="800" y="421" height="26" measuredWidth="100" measuredHeight="26" link="acesso_cadastroPreenchida.screen"/>
+  <widgets xsi:type="model:Label" id="48" x="411" y="728" text="CEP" measuredWidth="27" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="49" x="400" y="750" measuredWidth="162" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="1" width="162" text="~000.000-000~"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="50" x="752" y="679" measuredWidth="161" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="1" width="161" text="~Número~"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="52" x="405" y="679" width="309" measuredWidth="309" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="1" width="309" text="~Escreva seu endereço~"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="53" x="411" y="657" text="Logradouro" measuredWidth="68" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="752" y="657" text="Número" measuredWidth="50" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="57" x="400" y="808" text="Concordo com os  " measuredWidth="122" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="58" x="521" y="808" text="termos e serviços de venda e envio do site" measuredWidth="224" measuredHeight="23">
+    <font/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
