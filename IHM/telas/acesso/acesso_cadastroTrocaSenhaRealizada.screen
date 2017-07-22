@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
-  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="544" measuredHeight="44">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides" theme="clean">
+  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="548" measuredHeight="44">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Navigation.screen#Pills%20Justified"/>
     <overrides>
       <widgets ref="13" text="Todas Dona Mô, Princesas, Senhoritas, Senhoras  ">
@@ -36,7 +36,7 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:HLine" id="6" x="32" y="376" width="1233" measuredWidth="1233" measuredHeight="6"/>
-  <widgets xsi:type="model:SVGImage" id="7" x="1184" y="239" measuredWidth="48" measuredHeight="48" src="../../assets/ic_account_box.svg"/>
+  <widgets xsi:type="model:SVGImage" id="7" x="1184" y="239" measuredWidth="48" measuredHeight="48" foreground="#a64d79" src="../../assets/ic_account_box.svg"/>
   <widgets xsi:type="model:SVGImage" id="8" x="1064" y="239" measuredWidth="48" measuredHeight="48" src="../../assets/ic_local_mall.svg"/>
   <widgets xsi:type="model:SVGImage" id="9" x="944" y="241" measuredWidth="48" measuredHeight="48" src="../../assets/ic_contact_phone.svg"/>
   <widgets xsi:type="model:Master" id="10" x="911" y="199" measuredWidth="107" measuredHeight="29">
@@ -54,7 +54,9 @@
   <widgets xsi:type="model:Master" id="12" x="1154" y="199" measuredWidth="107" measuredHeight="29">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Content.screen#Tooltip"/>
     <overrides>
-      <widgets ref="111" text="Acesse sua conta"/>
+      <widgets ref="111" text="Acesse sua conta">
+        <attributes key="background" value="#a64d79"/>
+      </widgets>
     </overrides>
   </widgets>
   <widgets xsi:type="model:TextField" id="13" x="32" y="242" width="241" text="~Buscar moda~" measuredWidth="241" measuredHeight="40" layoutParams="anchor-left|anchor-middle" skin="../../assets/_text-input.svg">
@@ -63,7 +65,7 @@
   <widgets xsi:type="model:SVGImage" id="14" x="232" y="243" width="32" height="36" measuredWidth="32" measuredHeight="36" src="../../assets/ic_search.svg"/>
   <widgets xsi:type="model:HLine" id="19" x="32" y="928" width="1233" measuredWidth="1233" measuredHeight="6"/>
   <widgets xsi:type="model:HLine" id="23" x="33" y="984" width="1233" measuredWidth="1233" measuredHeight="6"/>
-  <widgets xsi:type="model:Label" id="32" x="233" y="528" text="Troca de senha realizada com sucesso!" measuredWidth="814" measuredHeight="73">
+  <widgets xsi:type="model:Label" id="32" x="233" y="528" text="Troca de senha realizada com sucesso!" measuredWidth="818" measuredHeight="73" foreground="#a64d79">
     <font size="48px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="45" x="482" y="632" text="Foi enviado um e-mail com a senha atualizada" measuredWidth="315" measuredHeight="28">

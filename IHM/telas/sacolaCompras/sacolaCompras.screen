@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
-  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="544" measuredHeight="44">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides" theme="clean">
+  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="548" measuredHeight="44">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Navigation.screen#Pills%20Justified"/>
     <overrides>
       <widgets ref="13" text="Todas Dona Mô, Princesas, Senhoritas, Senhoras  ">
@@ -37,7 +37,7 @@
   </widgets>
   <widgets xsi:type="model:HLine" id="6" x="32" y="376" width="1233" measuredWidth="1233" measuredHeight="6"/>
   <widgets xsi:type="model:SVGImage" id="7" x="1184" y="239" measuredWidth="48" measuredHeight="48" src="../../assets/ic_account_box.svg"/>
-  <widgets xsi:type="model:SVGImage" id="8" x="1064" y="239" measuredWidth="48" measuredHeight="48" src="../../assets/ic_local_mall.svg"/>
+  <widgets xsi:type="model:SVGImage" id="8" x="1064" y="239" measuredWidth="48" measuredHeight="48" foreground="#a64d79" alpha="96" src="../../assets/ic_local_mall.svg"/>
   <widgets xsi:type="model:SVGImage" id="9" x="944" y="241" measuredWidth="48" measuredHeight="48" src="../../assets/ic_contact_phone.svg"/>
   <widgets xsi:type="model:Master" id="10" x="911" y="199" measuredWidth="107" measuredHeight="29">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Content.screen#Tooltip"/>
@@ -48,7 +48,9 @@
   <widgets xsi:type="model:Master" id="11" x="1052" y="199" measuredWidth="72" measuredHeight="29">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Content.screen#Tooltip"/>
     <overrides>
-      <widgets ref="111" text="Sua sacola"/>
+      <widgets ref="111" text="Sua sacola">
+        <attributes key="background" value="#a64d79"/>
+      </widgets>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="12" x="1154" y="199" measuredWidth="107" measuredHeight="29">
@@ -61,8 +63,8 @@
     <font size="15px"/>
   </widgets>
   <widgets xsi:type="model:SVGImage" id="14" x="232" y="243" width="32" height="36" measuredWidth="32" measuredHeight="36" src="../../assets/ic_search.svg"/>
-  <widgets xsi:type="model:HLine" id="16" x="32" y="1112" width="1233" measuredWidth="1233" measuredHeight="6"/>
-  <widgets xsi:type="model:HLine" id="20" x="33" y="1168" width="1233" measuredWidth="1233" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="16" x="32" y="1163" width="1233" measuredWidth="1233" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="20" x="33" y="1219" width="1233" measuredWidth="1233" measuredHeight="6"/>
   <widgets xsi:type="model:Label" id="21" x="942" y="136" text="Olá Adeilson, vamos as compras!" measuredWidth="292" measuredHeight="36">
     <font size="20px"/>
   </widgets>
@@ -71,22 +73,10 @@
   </widgets>
   <widgets xsi:type="model:Image" id="24" x="112" y="424" width="40" height="128" measuredWidth="40" measuredHeight="128" src="../../assets/roupa_saiaSarjaProdutos.png"/>
   <widgets xsi:type="model:Image" id="25" x="112" y="576" width="48" height="136" measuredWidth="48" measuredHeight="136" src="../../assets/roupa_saiaCor.png"/>
-  <widgets xsi:type="model:Master" id="27" x="240" y="468" measuredWidth="59" measuredHeight="40">
-    <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Select"/>
-    <overrides>
-      <widgets ref="24" text="01"/>
-    </overrides>
-  </widgets>
-  <widgets xsi:type="model:Master" id="28" x="240" y="616" measuredWidth="59" measuredHeight="40">
-    <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Select"/>
-    <overrides>
-      <widgets ref="24" text="02"/>
-    </overrides>
-  </widgets>
-  <widgets xsi:type="model:Label" id="29" x="424" y="470" text="SAIA DE SARJA BOTÕES COR PRETA" measuredWidth="317" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="29" x="424" y="470" text="SAIA DE SARJA BOTÕES COR PRETA" measuredWidth="320" measuredHeight="36">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="30" x="424" y="618" text="SAIA DE SARJA BOTÕES COR MARROM" measuredWidth="350" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="30" x="424" y="618" text="SAIA DE SARJA BOTÕES COR MARROM" measuredWidth="352" measuredHeight="36">
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="31" x="816" y="470" text="R$ 159,90" measuredWidth="93" measuredHeight="36">
@@ -101,17 +91,71 @@
   <widgets xsi:type="model:Label" id="36" x="1092" y="618" text="R$ 319,80" measuredWidth="93" measuredHeight="36">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="38" x="1092" y="784" text="R$ 479,70" measuredWidth="93" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="38" x="1092" y="872" text="R$ 489,60" measuredWidth="93" measuredHeight="36">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="39" x="831" y="784" text="TOTAL:" measuredWidth="64" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="39" x="829" y="872" text="TOTAL:" measuredWidth="67" measuredHeight="36">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="40" x="960" y="914" measuredWidth="235" measuredHeight="55" link="sacolaComprasDados.screen">
+  <widgets xsi:type="model:Master" id="40" x="1029" y="1048" measuredWidth="235" measuredHeight="55" link="sacolaComprasDados.screen">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Buttons.screen#Button%20Success"/>
     <overrides>
       <widgets ref="37" width="235" height="55" text="CONTINUAR">
         <font size="24px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="41" x="197" y="782" measuredWidth="145" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="1" width="145" text="142.204-290"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="42" x="733" y="784" text="TAXA DE ENTREGA:" measuredWidth="176" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="43" x="1111" y="784" text="R$ 9,90" measuredWidth="71" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="46" x="368" y="784" width="161" height="36" text="CALCULAR" measuredWidth="161" measuredHeight="36" background="#a64d79" icon="refresh (small)">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="47" x="110" y="784" text="CEP:" measuredWidth="43" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="49" x="228" y="468" width="45" measuredWidth="45" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="1" width="45" text="1">
+        <attributes key="textAlignment" value="Center"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:SVGImage" id="52" x="280" y="468" width="25" height="25" measuredWidth="25" measuredHeight="25" src="../../assets/ic_expand_less.svg"/>
+  <widgets xsi:type="model:SVGImage" id="53" x="280" y="483" width="25" height="25" measuredWidth="25" measuredHeight="25" src="../../assets/ic_expand_more.svg"/>
+  <widgets xsi:type="model:SVGImage" id="54" x="280" y="616" width="25" height="25" measuredWidth="25" measuredHeight="25" src="../../assets/ic_expand_less.svg"/>
+  <widgets xsi:type="model:SVGImage" id="55" x="280" y="631" width="25" height="25" measuredWidth="25" measuredHeight="25" src="../../assets/ic_expand_more.svg"/>
+  <widgets xsi:type="model:Master" id="56" x="228" y="616" measuredWidth="45" measuredHeight="40">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="1" width="45" text="1">
+        <attributes key="textAlignment" value="Center"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="58" x="228" y="664" measuredWidth="76" measuredHeight="26">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Buttons.screen#Button%20Danger"/>
+    <overrides>
+      <widgets ref="43" width="76" height="26" text="Remover">
+        <attributes key="background" value="#d5a6bd"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="59" x="228" y="516" measuredWidth="76" measuredHeight="26">
+    <screen xsi:type="model:WidgetGroup" href="../../assets/Buttons.screen#Button%20Danger"/>
+    <overrides>
+      <widgets ref="43" width="76" height="26" text="Remover">
+        <attributes key="background" value="#d5a6bd"/>
       </widgets>
     </overrides>
   </widgets>

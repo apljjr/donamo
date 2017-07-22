@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
-  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="544" measuredHeight="44">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides" theme="clean">
+  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="548" measuredHeight="44">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Navigation.screen#Pills%20Justified"/>
     <overrides>
       <widgets ref="13" text="Todas Dona Mô, Princesas, Senhoritas, Senhoras  ">
@@ -36,7 +36,7 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:HLine" id="6" x="32" y="376" width="1233" measuredWidth="1233" measuredHeight="6"/>
-  <widgets xsi:type="model:SVGImage" id="7" x="1184" y="239" measuredWidth="48" measuredHeight="48" src="../../assets/ic_account_box.svg"/>
+  <widgets xsi:type="model:SVGImage" id="7" x="1184" y="239" measuredWidth="48" measuredHeight="48" foreground="#a64d79" src="../../assets/ic_account_box.svg"/>
   <widgets xsi:type="model:SVGImage" id="8" x="1064" y="239" measuredWidth="48" measuredHeight="48" src="../../assets/ic_local_mall.svg"/>
   <widgets xsi:type="model:SVGImage" id="9" x="944" y="241" measuredWidth="48" measuredHeight="48" src="../../assets/ic_contact_phone.svg"/>
   <widgets xsi:type="model:Master" id="10" x="911" y="199" measuredWidth="107" measuredHeight="29">
@@ -54,7 +54,9 @@
   <widgets xsi:type="model:Master" id="12" x="1154" y="199" measuredWidth="107" measuredHeight="29">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Content.screen#Tooltip"/>
     <overrides>
-      <widgets ref="111" text="Acesse sua conta"/>
+      <widgets ref="111" text="Acesse sua conta">
+        <attributes key="background" value="#a64d79"/>
+      </widgets>
     </overrides>
   </widgets>
   <widgets xsi:type="model:TextField" id="13" x="32" y="242" width="241" text="~Buscar moda~" measuredWidth="241" measuredHeight="40" layoutParams="anchor-left|anchor-middle" skin="../../assets/_text-input.svg">
@@ -63,15 +65,18 @@
   <widgets xsi:type="model:SVGImage" id="14" x="232" y="243" width="32" height="36" measuredWidth="32" measuredHeight="36" src="../../assets/ic_search.svg"/>
   <widgets xsi:type="model:HLine" id="19" x="31" y="936" width="1233" measuredWidth="1233" measuredHeight="6"/>
   <widgets xsi:type="model:HLine" id="23" x="32" y="992" width="1233" measuredWidth="1233" measuredHeight="6"/>
-  <widgets xsi:type="model:Master" id="24" x="192" y="540" measuredWidth="300" measuredHeight="213">
+  <widgets xsi:type="model:Master" id="24" x="192" y="483" measuredWidth="300" measuredHeight="231">
     <screen xsi:type="model:Screen" href="../../assets/Templates/Signin.screen#/"/>
     <overrides>
-      <widgets ref="1/5" text="Entre"/>
-      <widgets ref="1" x="15"/>
-      <widgets ref="5/47" text="Entrar"/>
+      <widgets ref="1/5" text="Acesse sua conta"/>
+      <widgets ref="1" x="15" y="-10"/>
+      <widgets ref="5/47" text="Entrar">
+        <attributes key="background" value="#a64d79"/>
+      </widgets>
       <widgets ref="4/18" text="Lembre-me"/>
       <widgets ref="2/1" text="~Email~"/>
       <widgets ref="3/1" text="~Senha~"/>
+      <widgets ref="2" y="45"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Label" id="25" x="704" y="490" text="Não é cadastrado?" measuredWidth="270" measuredHeight="53">
@@ -80,12 +85,12 @@
   <widgets xsi:type="model:Label" id="26" x="704" y="529" text="Aproveite e se cadastre agora!!!!" measuredWidth="464" measuredHeight="53">
     <font size="32px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="27" x="704" y="656" text="Clique aqui" measuredWidth="207" measuredHeight="62" foreground="#6fa8dc" link="acesso_cadastro.screen">
+  <widgets xsi:type="model:Label" id="27" x="704" y="656" text="Clique aqui" measuredWidth="207" measuredHeight="62" foreground="#a64d79" link="acesso_cadastro.screen">
     <font size="40px"/>
   </widgets>
   <widgets xsi:type="model:VLine" id="28" x="620" y="448" height="440" measuredWidth="6" measuredHeight="440"/>
-  <widgets xsi:type="model:Panel" id="30" x="376" y="595" height="30" measuredWidth="100" measuredHeight="30" border="none" link="acesso_Login.screen"/>
-  <widgets xsi:type="model:Label" id="31" x="196" y="768" text="Esqueceu a senha?" measuredWidth="166" measuredHeight="36" link="acesso_cadastroEsqueceuSenha.screen">
+  <widgets xsi:type="model:Panel" id="30" x="376" y="545" height="30" measuredWidth="100" measuredHeight="30" border="none" link="acesso_Login.screen"/>
+  <widgets xsi:type="model:Label" id="31" x="196" y="740" text="Esqueceu a senha?" measuredWidth="166" measuredHeight="36" link="acesso_cadastroEsqueceuSenha.screen">
     <font size="20px"/>
   </widgets>
   <hRuler/>

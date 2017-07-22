@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
-  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="544" measuredHeight="44">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides" theme="sketch">
+  <widgets xsi:type="model:Master" id="1" x="368" y="243" measuredWidth="548" measuredHeight="44">
     <screen xsi:type="model:WidgetGroup" href="../../assets/Navigation.screen#Pills%20Justified"/>
     <overrides>
       <widgets ref="13" text="Todas Dona Mô, Princesas, Senhoritas, Senhoras  ">
@@ -65,7 +65,7 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:HLine" id="20" x="23" y="1088" width="1233" measuredWidth="1233" measuredHeight="6"/>
-  <widgets xsi:type="model:Label" id="24" x="888" y="488" text="SAIA DE SARJA BOTÕES" measuredWidth="214" measuredHeight="36">
+  <widgets xsi:type="model:Label" id="24" x="888" y="488" text="SAIA DE SARJA BOTÕES" measuredWidth="215" measuredHeight="36">
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:Image" id="25" x="872" y="560" measuredWidth="245" measuredHeight="197" src="../../assets/roupas_caracteristicas.png"/>
